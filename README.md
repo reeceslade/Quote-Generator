@@ -1,1 +1,1 @@
-# Quote-Generator
+First ever coding project in year one at university. This included me learning the basics of HTML, CSS and JS for the front end and Python for the backend. In this application I created a Quote Generator which allowed the user to add a quote to a list aswell as removing them. The user could also generate a random quote and click on a particular quote to either re-add or delete it
