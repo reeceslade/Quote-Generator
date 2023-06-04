@@ -1,0 +1,95 @@
+* {
+  list-style-type: none;
+}
+
+body{
+  background-image: url('https://pics.freeartbackgrounds.com/fullhd/Beautiful_Sunset_Background-1366.jpg');
+}
+
+#box{
+  background-color: black;
+  border: 5px solid white;
+  height: 275px
+  width: 750px
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+#button {
+  margin: 30px auto;
+  height: 60px
+  width: 250px
+  font-size: 25px
+  background-color: white
+}
+
+#output{
+  margin: 5px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+#box2{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+#myForm{
+  padding-top: 60px;
+}
+
+.btn-add{
+  background-color: green;
+  color: white;
+  
+}
+.btn-remove{
+  background-color: red;
+  color: white;
+}
+
+li{
+  position: relative;
+  displace: block;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid;
+  border-top-left-radius: .25 rem;
+  border-top-right-radius: .25 rem;
+  border-bottom-left-radius: .25 rem;
+  border-top-left-radius: .25 rem;
+  color: black;
+  border-radius: 15px;
+  
+}
+
+.btn-upload{
+  background-color: blue;
+  color: white;
+}
+
+ul{
+  color: transparent;
+}
+
+.DeleteBtn{
+  float: right;
+  background-color: red;
+   height: 20px;
+  width: 20px;
+}
+
+*{background-attachment: fixed;
+background-size: cover; 
+ }
+
+#dynamic-list > li:hover{
+  background-color: lightblue;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HTML is in english -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta http-equiv="X-UA-Compatiblle" content= "ie=edge"
+    <meta name= "description" content ="Quote Generator, Quote">
+    <meta name= "author" content = "Reece Slade">
+    <!-- Meta name does not show what is on my browser but defines data about the html content such as keywords authors etc. -->
+    
+      <link rel="stylesheet" href="{{url_for('static', filename='styles/style.css')}}">
+      <title>Replit</title>
+  </head>
+  <body onload="getQuote()">
+    <h2>Random Quotes Generator</h2>
+    <div id ="box">
+    <button id="button" onclick="generate()">Press To Generate a Quote</button>  
+      
+      <!-- this runs the generate function which generates a random quote -->
+      <div id="output">Click above to get your quote!</div>
+    </div>
+
+<!-- output is the text getting changed by using generate function -->
+
+<div id = "box2">
+ <form action="/" method = "GET">
+  <form class="form">
+      <h2> Add Quote:</h2>
+    </form>
+<!-- this is an insertion of data which adds an item to the array -->
+   <div class="input-group">
+     <input type="text" class="form-control" id="candidate">
+   <div class="input-group-append">
+     <button onclick="addItem()" class ="btn btn-add" type="button">Add Quote</button>
+   </div> 
+     
+   <ul id="dynamic-list"></ul>
+     
+    <script type="text/javascript" src="{{ url_for('static',filename='scripts/main.js') }}"> </script>
+       </body>
+</html>
